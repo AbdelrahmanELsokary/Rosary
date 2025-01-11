@@ -9,5 +9,6 @@ startTasbih.onclick = () => {
 };
 
 reset.onclick = () => {
-  display.textContent = 0;
+  counter = 0;
+  display.textContent = counter;
 };
