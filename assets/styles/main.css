@@ -15,6 +15,7 @@ header {
 }
 header .container nav ul{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
@@ -25,7 +26,6 @@ header .container nav ul li button{
   border-radius: 7px;
   padding: 10px;
 }
-
 section .container .display {
   width: 300px;
   height: 300px;

@@ -13,3 +13,10 @@ reset.onclick = () => {
   display.textContent = counter;
 };
 
+let tasbih1 = document.querySelectorAll(".tasbih");
+
+tasbih1.forEach((tasbih1) => {
+  tasbih1.onclick = () => {
+    tasbih1.style.backgroundColor = "chocolate";
+  };
+});
