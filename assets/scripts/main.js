@@ -12,3 +12,4 @@ reset.onclick = () => {
   counter = 0;
   display.textContent = counter;
 };
+

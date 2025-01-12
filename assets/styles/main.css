@@ -7,7 +7,26 @@ body {
   background-color: rgb(33, 31, 31);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.display {
+ul{
+  list-style: none;
+}
+header {
+  padding-top: 30px ;
+}
+header .container nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+header .container nav ul li button{
+  border: none;
+  font-size: large;
+  font-weight: 900;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+section .container .display {
   width: 300px;
   height: 300px;
   display: flex;
@@ -18,12 +37,15 @@ body {
   border-radius: 50%;
   margin: 100px auto;
 }
-.btn{
+section .container .display span{
+  font-size: 50px;
+}
+section .container .btn{
   display: flex;
   justify-content: center;
   padding-top: 100px;
 }
-.btn button{
+section .container .btn button{
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -33,7 +55,7 @@ body {
   padding: 10px 15px;
   margin: 5px;
 }
-.btn button:hover{
+section .container .btn button:hover{
   background-color: brown;
   transition: 0.5s;
 }
